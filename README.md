@@ -91,8 +91,8 @@ npm install memoize-deep
 
 The easiest way to contribute is by starring this project on GitHub!
 
-https://github.com/chadium/memoize-deep
+https://github.com/daniel-araujo/memoize-deep
 
 Found a bug or want to contribute code? Feel free to create an issue or send a pull request on GitHub:
 
-https://github.com/chadium/memoize-deep/issues
+https://github.com/daniel-araujo/memoize-deep/issues
