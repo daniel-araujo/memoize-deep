@@ -1,0 +1,14 @@
+{
+  "name": "memoize-deep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "mocha src"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
