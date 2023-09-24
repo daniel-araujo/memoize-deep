@@ -1,4 +1,4 @@
-# memoize-deep
+# memoize-deeper
 
 This might be the best memoize library for JavaScript but do be aware
 that as the author I am very biased. Features:
@@ -16,7 +16,7 @@ Here are a couple of examples.
 
 ```js
 // Defines memoized function.
-let calculateYourMomsWeight = memoizeDeep({
+let calculateYourMomsWeight = memoizeDeeper({
   // The fetch option specifies the function that will be called to retrieve
   // the value.
   fetch() {
@@ -36,7 +36,7 @@ const weight = await calculateYourMomsWeight()
 **Cache by arguments:**
 
 ```js
-let getTwitchProfilePicture = memoizeDeep({
+let getTwitchProfilePicture = memoizeDeeper({
   // The fetch function can take arguments.
   async fetch(username) {
     const apiUrl = `https://api.twitch.tv/helix/users?login=${username}`
@@ -72,7 +72,7 @@ const imageUrl = await getTwitchProfilePicture('theprimeagen')
 **Return instantly with default value while fetch is running:**
 
 ```js
-let getStreamStatus = memoizeDeep({
+let getStreamStatus = memoizeDeeper({
   async fetch(username) {
     // Make HTTP request that can take a while to respond.
   },
@@ -90,7 +90,7 @@ const { online } = await getStreamStatus('chadium')
 ## Installation
 
 ```
-npm install memoize-deep
+npm install memoize-deeper
 ```
 
 
@@ -98,8 +98,8 @@ npm install memoize-deep
 
 The easiest way to contribute is by starring this project on GitHub!
 
-https://github.com/daniel-araujo/memoize-deep
+https://github.com/daniel-araujo/memoize-deeper
 
 Found a bug or want to contribute code? Feel free to create an issue or send a pull request on GitHub:
 
-https://github.com/daniel-araujo/memoize-deep/issues
+https://github.com/daniel-araujo/memoize-deeper/issues
