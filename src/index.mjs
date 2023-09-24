@@ -117,7 +117,7 @@ class MemoryEntry {
  * and fetch throws an error. This is optional.
  * @returns {function}
  */
-export function memoizeDeep({
+export function memoizeDeeper({
   fetch,
   defaultValue = undefined,
   wait = true,
